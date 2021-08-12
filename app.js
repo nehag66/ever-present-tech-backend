@@ -1,11 +1,9 @@
-const express = require("express");
+var express = require("express"); // requre the express framework
+var app = express();
 const bodyParser = require("body-parser");
 
-const feedRoutes = require("./routes/login");
+var fs = require("fs"); //require file system object
 
-const app = express();
-
-// app.use(bodyParser.urlencoded()); // x-www-form-urlencoded <form>
 app.use(bodyParser.json()); // application/json
 
 app.use((req, res, next) => {
@@ -18,6 +16,18 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/feed", feedRoutes);
+// Endpoint to Get a list of users
+app.get("/getClients", function (req, res) {
+  fs.readFile(__dirname + "/" + "db.json", "utf8", function (err, data) {
+    //console.log(data);
+    res.send(data);
+    // res.json(data);
+  });
+});
 
-app.listen(8081);
+// Create a server to listen at port 8080
+var server = app.listen(8080, function () {
+  var host = server.address().address;
+  var port = server.address().port;
+  console.log("REST API demo app listening at http://%s:%s", host, port);
+});
