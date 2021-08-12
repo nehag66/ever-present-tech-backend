@@ -1,0 +1,40 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "logo": "GIANI",
+      "login_label": "Sign in",
+      "name_label": "Name",
+      "name_input": "Matthew Hussey",
+      "userName_label": "Account Name",
+      "userName_input": "client1",
+      "password_label": "Key",
+      "password_input": "client1password",
+      "signin_button": "Sign in"
+    },
+    {
+      "id": "2",
+      "logo": "PIZZA HUT",
+      "login_label": "Login please",
+      "name_label": "Full Name",
+      "name_input": "Matt Donavan",
+      "userName_label": "Username",
+      "userName_input": "client2",
+      "password_label": "Password",
+      "password_input": "client2password",
+      "signin_button": "Login in"
+    },
+    {
+      "id": "3",
+      "logo": "BURGER KING",
+      "login_label": "Get in",
+      "name_label": "Christian Rose",
+      "name_input": "Client 3",
+      "userName_label": "Unique Id",
+      "userName_input": "client3",
+      "password_label": "Password",
+      "password_input": "client3password",
+      "signin_button": "Submit"
+    }
+  ]
+}
