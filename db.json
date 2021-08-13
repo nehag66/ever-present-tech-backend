@@ -1,60 +1,63 @@
 {
   "clients": [
     {
-      "id": "1",
-      "logo": "GIANI",
-      "login_label": "Sign in",
-      "name_label": "Name",
-      "userName_label": "Account Name",
-      "password_label": "Key",
-      "signin_button": "Sign in",
       "user": {
         "user_id": "11",
-        "user_name": "neha",
+        "user_name": "neha1",
+        "email": "neha1@gmail.com",
         "name": "Neha",
         "password": "qwerty"
       },
       "clientDetails": {
+        "id": "1",
+        "logo": "GIANI",
+        "login_label": "Sign in",
+        "name_label": "Name",
+        "userName_label": "Account Name",
+        "password_label": "Key",
+        "signin_button": "Sign in",
         "name_input": "Matthew Hussey",
         "userName_input": "client1",
         "password_input": "client1password"
       }
     },
     {
-      "id": "2",
-      "logo": "PIZZA HUT",
-      "login_label": "Login please",
-      "name_label": "Full Name",
-      "userName_label": "Username",
-      "password_label": "Password",
-      "signin_button": "Login in",
       "user": {
         "user_id": "22",
-        "user_name": "neha",
+        "user_name": "neha2",
+        "email": "neha2@gmail.com",
         "name": "Neha",
         "password": "qwerty"
       },
       "clientDetails": {
+        "id": "2",
+        "logo": "PIZZA HUT",
+        "login_label": "Login please",
+        "name_label": "Full Name",
+        "userName_label": "Username",
+        "password_label": "Password",
+        "signin_button": "Login in",
         "name_input": "Matt Donavan",
         "userName_input": "client2",
         "password_input": "client2password"
       }
     },
     {
-      "id": "3",
-      "logo": "BURGER KING",
-      "login_label": "Get in",
-      "name_label": "Name",
-      "userName_label": "Unique Id",
-      "password_label": "Password",
-      "signin_button": "Submit",
       "user": {
         "user_id": "33",
-        "user_name": "neha",
+        "user_name": "neha3",
+        "email": "neha3@gmail.com",
         "name": "Neha",
         "password": "qwerty"
       },
       "clientDetails": {
+        "id": "3",
+        "logo": "BURGER KING",
+        "login_label": "Get in",
+        "name_label": "Name",
+        "userName_label": "Unique Id",
+        "password_label": "Password",
+        "signin_button": "Submit",
         "name_input": "Christian Rose",
         "userName_input": "client3",
         "password_input": "client3password"
