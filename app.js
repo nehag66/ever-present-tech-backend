@@ -1,10 +1,10 @@
-var express = require("express"); // requre the express framework
+var express = require("express");
 var app = express();
 const bodyParser = require("body-parser");
 
-var fs = require("fs"); //require file system object
+var fs = require("fs");
 
-app.use(bodyParser.json()); // application/json
+app.use(bodyParser.json());
 
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -21,7 +21,6 @@ app.get("/getClients", function (req, res) {
   fs.readFile(__dirname + "/" + "db.json", "utf8", function (err, data) {
     //console.log(data);
     res.send(data);
-    // res.json(data);
   });
 });
 
